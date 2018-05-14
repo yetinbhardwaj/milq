@@ -1,0 +1,98 @@
+//------------------------------Mixin Start--------------------*/
+//Creating Images path
+@function get_image_url($file) {
+    @return url('/images/' + $file);
+}
+// transition  shorthand
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    transition: $args;
+}
+@mixin transform($args...) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    transform: $args;
+}
+@mixin box-sizing{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+// Border radius shorthand
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -ms-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+//breakpoint
+@mixin mquery($size) {
+    @if $size == large_screen {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @if $size == desk {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+    @if $size == ipad {
+        @media (max-width: 991px) {
+            @content;
+        }
+    }
+    @if $size == mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @if $size == mid_small_screen {
+        @media (max-width: 600px) {
+            @content;
+        }
+    }
+    @if $size == small_screen {
+        @media (max-width: 479px) {
+            @content;
+        }
+    }
+}
+//alignment
+@mixin align($position) {
+    position: absolute;
+    z-index:10;
+    @if $position == valign {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    }
+    @if $position == halign {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+    @if $position == center {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform:translate(-50%, -50%);
+        -moz-transform:translate(-50%, -50%);
+        -ms-transform:translate(-50%, -50%);
+    }
+}
+//------------------------------Mixin END--------------------*/

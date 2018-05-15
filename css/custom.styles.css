@@ -457,7 +457,8 @@ body input[type="button"],
           top: calc(100% + 30px); }
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content .bold-text {
         font-weight: bold;
-        display: inline-block; }
+        display: inline-block;
+        color: #fff; }
         .cs-banner .cs-banner-left-wrap .cs-banner-left-content .bold-text::before {
           display: none; }
   .cs-banner .cs-banner-right-wrap {

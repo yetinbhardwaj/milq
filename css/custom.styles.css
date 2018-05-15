@@ -255,8 +255,8 @@ body input[type="button"],
     padding-left: 10px;
     vertical-align: middle; }
   .cs-banner-article-box .cs-banner-article-text h5 {
-    font-size: 16px;
-    padding: 10px 10px 10px 0; }
+    font-size: 14px;
+    padding: 4px 10px 10px 0; }
 
 .cs-article-box-wrapper {
   vertical-align: middle;
@@ -266,10 +266,11 @@ body input[type="button"],
   padding-top: 10px; }
   .cs-banner-article-box-btm p {
     color: #888080;
-    padding-left: 40px; }
+    padding-top: 4px;
+    font-size: 12px; }
 
 .cs-banner-art-box-btm-heading img {
-  max-width: 30px;
+  max-width: 26px;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle; }
@@ -277,7 +278,8 @@ body input[type="button"],
   display: inline-block;
   vertical-align: middle;
   padding-left: 10px;
-  font-size: 14px; }
+  font-size: 11px;
+  text-transform: uppercase; }
 
 .cs-banner-article-text-left {
   max-width: calc(100% - 70px);
@@ -291,7 +293,7 @@ body input[type="button"],
     border: solid 0.6px #1accb0;
     color: #fff;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 10px; }
   .cs-banner-article-text-left img {
     max-width: 30px;
@@ -307,7 +309,8 @@ body input[type="button"],
   .cs-banner-article-text-right a {
     display: inline-block;
     color: #888080;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 11px; }
 
 .cs-banner-right-bottom-wrap {
   text-align: center;
@@ -317,25 +320,24 @@ body input[type="button"],
 
 .cs-banner-mobile-box {
   display: inline-block;
-  background: #004d80;
-  height: 80%;
+  background: url(../image/phone.png);
+  height: 95%;
   position: absolute;
   width: 35%;
-  min-width: 350px;
+  min-width: 424px;
   bottom: 0;
   right: 50%;
-  border: 19px solid #373739;
   border-bottom-width: 0;
   transform: translateX(50%);
-  border-top-right-radius: 37px;
-  border-top-left-radius: 37px;
   overflow: hidden;
-  padding: 3%; }
+  padding: 3%;
+  background-position: top center;
+  background-size: 100%; }
   .cs-banner-mobile-box span {
     display: inline-block;
     vertical-align: middle;
     position: absolute;
-    top: 50%;
+    top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%; }
@@ -406,7 +408,7 @@ body input[type="button"],
         height: 65px;
         position: absolute;
         right: -33px;
-        bottom: 30%;
+        bottom: 18%;
         z-index: 1;
         background-position: center;
         background-size: contain;
@@ -422,7 +424,7 @@ body input[type="button"],
         transform: translateY(-50%); }
     .cs-banner .cs-banner-left-wrap .cs-banner-left-content {
       font-family: Open Sans;
-      font-size: 38px;
+      font-size: 32px;
       display: table-cell;
       font-weight: normal;
       font-style: normal;

@@ -328,6 +328,7 @@ body input[type="button"],
   position: absolute;
   width: 35%;
   min-width: 424px;
+  max-height: 383px;
   bottom: 0;
   right: 50%;
   border-bottom-width: 0;
@@ -398,25 +399,24 @@ body input[type="button"],
         display: inline-block;
         width: 30px;
         margin: 0 15px; }
-    .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap {
-      display: table;
-      height: 100vh;
-      width: 100%;
-      position: relative; }
-      .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap::before {
-        content: '';
+      .cs-banner .cs-banner-left-wrap .cs-banner-nav .slide-bottom {
         background: url(../image/group-11.png);
         display: inline-block;
         width: 45px;
         height: 45px;
         position: absolute;
-        right: -23px;
-        bottom: 6%;
+        right: -38px;
+        bottom: 30px;
         z-index: 1;
         background-position: center;
         background-size: contain;
         cursor: pointer;
         background-repeat: no-repeat; }
+    .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap {
+      display: table;
+      height: 100vh;
+      width: 100%;
+      position: relative; }
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap:after {
         content: '';
         display: inline-block;

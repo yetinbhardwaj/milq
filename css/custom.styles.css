@@ -420,11 +420,12 @@ body input[type="button"],
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap:after {
         content: '';
         display: inline-block;
-        border: 10px solid;
+        border: 15px solid;
         border-color: transparent transparent transparent #373739;
         position: absolute;
-        right: -19px;
+        right: -30px;
         top: 50%;
+        z-index: 1;
         transform: translateY(-50%); }
     .cs-banner .cs-banner-left-wrap .cs-banner-left-content {
       font-family: Open Sans;

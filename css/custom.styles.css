@@ -134,7 +134,7 @@ body input[type="file"],
 body textarea,
 body select {
   width: 100%;
-  border-radius: 1px;
+  border-radius: 3px;
   background-color: #ffffff;
   border: solid 0.5px #dbdbdb;
   line-height: 1.2;
@@ -160,8 +160,7 @@ body input[type="checkbox"] {
   margin-right: 4px;
   margin-top: 4px; }
 
-/* All Global Buttons
-   ========================================================================== */
+/* All Global Buttons ===================== */
 body .btn,
 body input[type="submit"],
 body input[type="button"],
@@ -189,20 +188,101 @@ body input[type="button"],
   color: #ffffff;
   background-color: #ee365a; }
 
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #eb244c; }
+
+.custom-header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 10px; }
+  .custom-header .page-center {
+    max-width: 100%;
+    padding: 0 20px; }
+  .custom-header .cs-logo-wrap {
+    float: left;
+    width: 31%;
+    text-align: center; }
+  .custom-header .cs-menu-wrap {
+    width: 69%;
+    float: left;
+    text-align: right;
+    padding: 10px 15px; }
+    .custom-header .cs-menu-wrap ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .custom-header .cs-menu-wrap ul li {
+        display: inline-block; }
+        .custom-header .cs-menu-wrap ul li a {
+          padding: 10px 20px;
+          border-radius: 20px;
+          color: #fff; }
+          .custom-header .cs-menu-wrap ul li a:hover, .custom-header .cs-menu-wrap ul li a.active {
+            background: #ee365a; }
+  .custom-header .cs-logo {
+    display: inline-block;
+    background-image: url(../image/bitmap@2x.png);
+    height: 63px;
+    width: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.fixed-header .custom-header {
+  position: fixed;
+  background: rgba(55, 55, 57, 0.71); }
+
+.cs-banner-article-box {
+  display: inline-block;
+  background: #fff;
+  height: 168px;
+  width: 49%; }
+
+.cs-banner-right-bottom-wrap {
+  text-align: center;
+  padding: 20px;
+  height: 50vh; }
+
+.cs-banner-mobile-box {
+  display: inline-block;
+  background: #4887da;
+  height: 300px;
+  width: 350px; }
+
+.cs-banner-right-top-wrap {
+  width: 100%;
+  padding: 70px 50px 0;
+  height: 50vh; }
+
 .cs-banner {
   min-height: 100vh;
   display: table;
   width: 100%; }
   .cs-banner .cs-banner-left-wrap {
-    width: 40%;
+    width: 35%;
     background-color: #373739;
     color: #fff;
     min-height: 100vh;
-    display: table-cell; }
+    float: left;
+    display: inline-block; }
     .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap {
       display: table;
       height: 100vh;
-      width: 100%; }
+      width: 100%;
+      position: relative; }
+      .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap:after {
+        content: '';
+        display: inline-block;
+        border: 10px solid;
+        border-color: transparent transparent transparent #373739;
+        position: absolute;
+        right: -19px;
+        top: 50%;
+        transform: translateY(-50%); }
     .cs-banner .cs-banner-left-wrap .cs-banner-left-content {
       font-family: Open Sans;
       font-size: 38px;
@@ -216,22 +296,40 @@ body input[type="button"],
       color: #c2c2c2;
       vertical-align: middle;
       position: relative; }
-      .cs-banner .cs-banner-left-wrap .cs-banner-left-content span {
+      .cs-banner .cs-banner-left-wrap .cs-banner-left-content span.border-line {
         display: inline-block;
         height: 2px;
         width: 20px;
         background: #c2c2c2; }
+      .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box {
+        position: relative;
+        max-width: 300px;
+        width: 100%;
+        display: inline-block; }
+        .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box:before, .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box:after {
+          content: '';
+          display: inline-block;
+          width: 50px;
+          height: 2px;
+          background: #ada9a9;
+          position: absolute;
+          top: -20px;
+          left: 50%;
+          transform: translateX(-50%); }
+        .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box:after {
+          top: calc(100% + 30px); }
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content .bold-text {
         font-weight: bold;
-        background: transparent; }
+        display: inline-block; }
         .cs-banner .cs-banner-left-wrap .cs-banner-left-content .bold-text::before {
           display: none; }
   .cs-banner .cs-banner-right-wrap {
-    width: 60%;
+    width: 65%;
     min-height: 100vh;
-    background: url(../image/bitmap_2.png);
-    display: table-cell;
-    background-size: cover; }
+    background: #000;
+    display: inline-block;
+    background-size: cover;
+    float: left; }
 
 .custom-body-conatiner-wrapper {
   background: #f0f7ff; }
@@ -354,16 +452,19 @@ body input[type="button"],
     display: inline-block;
     float: left; }
   .cs-footer-top-form-wrap .cs-form-heading {
-    width: 40%; }
+    width: 30%; }
+  .cs-footer-top-form-wrap .cs-form-inner-wrap {
+    float: left;
+    width: 70%; }
   .cs-footer-top-form-wrap .cs-form-text-box {
-    width: 20%;
+    width: 33%;
     padding: 0 10px; }
 
 .cs-form-heading h4 {
   font-weight: 400; }
 
 .cs-footer-top-right {
-  padding: 50px; }
+  padding: 0px 50px 50px; }
   .cs-footer-top-right .cs-quote {
     font-size: 19px;
     font-weight: 600;

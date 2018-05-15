@@ -79,7 +79,7 @@ h3.section-heading:before {
   top: 50%;
   content: '';
   height: 1px;
-  background: #373739;
+  background: rgba(55, 55, 57, 0.3);
   width: 100%;
   display: inline-block;
   position: absolute;
@@ -285,6 +285,8 @@ body input[type="button"]:focus {
           padding: 10px 20px;
           border-radius: 20px;
           color: #fff;
+          font-size: 13px;
+          text-transform: uppercase;
           &:hover,&.active{            
             background: #ee365a;
           }
@@ -374,6 +376,7 @@ body input[type="button"]:focus {
     padding: 5px 10px;
     font-size: 10px;
     margin-right: 10px;
+    text-transform: uppercase;
   }
   img {
     max-width: 30px;
@@ -426,7 +429,7 @@ body input[type="button"]:focus {
   }
   p{
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -489,17 +492,18 @@ body input[type="button"]:focus {
       position: relative;
       &::before {
         content: '';
-        background: url(../image/group-11@2x.png);
+        background: url(../image/group-11.png);
         display: inline-block;
-        width: 65px;
-        height: 65px;
+        width: 45px;
+        height: 45px;
         position: absolute;
-        right: -33px;
-        bottom: 18%;
+        right: -23px;
+        bottom: 6%;
         z-index: 1;
         background-position: center;
         background-size: contain;
         cursor: pointer;
+        background-repeat: no-repeat;
      }
       &:after {
         content: '';

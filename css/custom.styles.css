@@ -67,7 +67,7 @@ h3.section-heading:before {
   top: 50%;
   content: '';
   height: 1px;
-  background: #373739;
+  background: rgba(55, 55, 57, 0.3);
   width: 100%;
   display: inline-block;
   position: absolute;
@@ -220,7 +220,9 @@ body input[type="button"],
         .custom-header .cs-menu-wrap ul li a {
           padding: 10px 20px;
           border-radius: 20px;
-          color: #fff; }
+          color: #fff;
+          font-size: 13px;
+          text-transform: uppercase; }
           .custom-header .cs-menu-wrap ul li a:hover, .custom-header .cs-menu-wrap ul li a.active {
             background: #ee365a; }
   .custom-header .cs-logo {
@@ -294,7 +296,8 @@ body input[type="button"],
     color: #fff;
     padding: 5px 10px;
     font-size: 10px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    text-transform: uppercase; }
   .cs-banner-article-text-left img {
     max-width: 30px;
     border-radius: 50%;
@@ -343,7 +346,7 @@ body input[type="button"],
     width: 80%; }
   .cs-banner-mobile-box p {
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -402,17 +405,18 @@ body input[type="button"],
       position: relative; }
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap::before {
         content: '';
-        background: url(../image/group-11@2x.png);
+        background: url(../image/group-11.png);
         display: inline-block;
-        width: 65px;
-        height: 65px;
+        width: 45px;
+        height: 45px;
         position: absolute;
-        right: -33px;
-        bottom: 18%;
+        right: -23px;
+        bottom: 6%;
         z-index: 1;
         background-position: center;
         background-size: contain;
-        cursor: pointer; }
+        cursor: pointer;
+        background-repeat: no-repeat; }
       .cs-banner .cs-banner-left-wrap .cs-banner-left-content-wrap:after {
         content: '';
         display: inline-block;

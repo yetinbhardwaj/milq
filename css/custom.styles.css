@@ -181,7 +181,7 @@ body input[type="button"],
   letter-spacing: 0.1px;
   box-shadow: none;
   border: 0;
-  padding: 8px 30px;
+  padding: 9px 30px;
   border-radius: 3px; }
 
 .btn-primary {
@@ -688,7 +688,7 @@ body input[type="button"],
     width: 70%; }
   .cs-footer-top-form-wrap .cs-form-text-box {
     width: 33%;
-    padding: 0 10px; }
+    padding: 0 5px; }
 
 .cs-form-heading h4 {
   font-weight: 400; }

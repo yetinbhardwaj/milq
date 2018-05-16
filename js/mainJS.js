@@ -8,9 +8,66 @@ $(document).ready(function(){
                 $('body').removeClass('fixed-header');
             }
     });
-    // $(".slide-bottom").click(function(){
-    //     $("#top-section-one").slideDown("slow");
-    // });
+   
+    var i = 1 ;
+    var j = 7;
+    $(".cs-banner-left-content .cs-text-box li,.cs-article-box-wrapper,.cs-banner-mobile-box,.cs-banner-right-bg-img-box img").each(function(){
+        var keyNo = $(this).attr('key');          
+        if (keyNo == i ) {
+            $(this).siblings().removeClass("active");
+            $(this).addClass("active");
+        }
+    });
+    $('.cs-banner-right-bg-img-box img').each(function(){
+        if($(this).hasClass('active')){
+            var url = $(this).attr('src');   
+            $(this).parent().parent().css("background-image", "url("+url+")");
+        }
+        
+    })
+    $("#NextBtn").click(function(){
+        i++
+        if ( i > 6 ) {
+            i = 1;
+        }   
+        $(".cs-banner-left-content .cs-text-box li,.cs-article-box-wrapper,.cs-banner-mobile-box,.cs-banner-right-bg-img-box img").each(function(){
+            var keyNo = $(this).attr('key');          
+            if (keyNo == i ) {
+                $(this).siblings().removeClass("active");
+                $(this).addClass("active");
+            }
+        });
+        $('.cs-banner-right-bg-img-box img').each(function(){
+            if($(this).hasClass('active')){
+                var url = $(this).attr('src');   
+                $(this).parent().parent().css("background-image", "url("+url+")");
+            }            
+        })
+        
+    });
+   
+    $("#PrevBtn").click(function(){
+        j--
+        if ( j <= 0 ) {
+            j = 6;
+        }   
+        $(".cs-banner-left-content .cs-text-box li,.cs-article-box-wrapper,.cs-banner-mobile-box").each(function(){
+            var keyNo = $(this).attr('key');          
+            if (keyNo == j ) {
+                $(this).siblings().removeClass("active");
+                $(this).addClass("active");
+            }
+        });
+        $('.cs-banner-right-bg-img-box img').each(function(){
+            if($(this).hasClass('active')){
+                var url = $(this).attr('src');   
+                $(this).parent().parent().css("background-image", "url("+url+")");
+            }
+            
+        })
+       
+    });
+    
 
 });
 

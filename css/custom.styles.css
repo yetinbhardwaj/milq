@@ -249,8 +249,10 @@ body input[type="button"],
   overflow: hidden; }
   .cs-banner-article-box .cs-banner-article-box-img {
     width: 80px;
+    max-height: 80px;
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    overflow: hidden; }
   .cs-banner-article-box .cs-banner-article-text {
     width: calc(100% - 86px);
     display: inline-block;
@@ -262,7 +264,20 @@ body input[type="button"],
 
 .cs-article-box-wrapper {
   vertical-align: middle;
-  display: table-cell; }
+  position: absolute;
+  z-index: -1; }
+  .cs-article-box-wrapper .cs-banner-article-box {
+    transform: translateX(3000px); }
+  .cs-article-box-wrapper.active {
+    position: relative;
+    z-index: 1; }
+    .cs-article-box-wrapper.active .cs-banner-article-box.box-one {
+      right: 0;
+      transform: translateX(0);
+      transition: all 2s ease; }
+    .cs-article-box-wrapper.active .cs-banner-article-box.box-two {
+      transform: translateX(0);
+      transition: all 3s ease; }
 
 .cs-banner-article-box-btm {
   padding-top: 10px; }
@@ -273,6 +288,8 @@ body input[type="button"],
 
 .cs-banner-art-box-btm-heading img {
   max-width: 26px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle; }
@@ -321,22 +338,45 @@ body input[type="button"],
   height: 50vh;
   position: relative; }
 
+.cs-banner-right-bg-img-box {
+  display: none; }
+
 .cs-banner-mobile-box {
-  display: inline-block;
   background: url(../image/phone.png);
   height: 95%;
   position: absolute;
   width: 35%;
   min-width: 424px;
   max-height: 383px;
-  bottom: 0;
+  bottom: -100%;
   right: 50%;
   border-bottom-width: 0;
   transform: translateX(50%);
   overflow: hidden;
   padding: 3%;
   background-position: top center;
-  background-size: 100%; }
+  background-size: 100%;
+  display: inline-block;
+  -webkit-transition-property: bottom;
+  /* Safari */
+  -webkit-transition-duration: 0s;
+  /* Safari */
+  -webkit-transition-delay: 0s;
+  /* Safari */
+  transition-property: bottom;
+  transition-duration: 0s;
+  transition-delay: 0s; }
+  .cs-banner-mobile-box.active {
+    bottom: 0;
+    -webkit-transition-property: bottom;
+    /* Safari */
+    -webkit-transition-duration: 600ms;
+    /* Safari */
+    -webkit-transition-delay: 200ms;
+    /* Safari */
+    transition-property: bottom;
+    transition-duration: 600ms;
+    transition-delay: 200ms; }
   .cs-banner-mobile-box span {
     display: inline-block;
     vertical-align: middle;
@@ -449,7 +489,13 @@ body input[type="button"],
         position: relative;
         max-width: 300px;
         width: 100%;
-        display: inline-block; }
+        display: inline-block;
+        margin: 0;
+        list-style: none; }
+        .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box li {
+          display: none; }
+          .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box li.active {
+            display: block; }
         .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box:before, .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box:after {
           content: '';
           display: inline-block;
@@ -471,7 +517,6 @@ body input[type="button"],
   .cs-banner .cs-banner-right-wrap {
     width: 65%;
     min-height: 100vh;
-    background-image: url(../image/slider2.png);
     display: inline-block;
     background-size: cover;
     float: left;
@@ -513,6 +558,8 @@ body input[type="button"],
       text-align: left;
       color: #373739;
       margin-bottom: 20px; }
+      .custom-body-conatiner-wrapper .cs-body-top-section p a {
+        color: #373739; }
     .custom-body-conatiner-wrapper .cs-body-top-section.bottom-pane {
       position: relative; }
       .custom-body-conatiner-wrapper .cs-body-top-section.bottom-pane:before {

@@ -11,7 +11,7 @@
  </head>
 <body >
 <!-- Header Starts Here-->
-<div class="custom-header">
+<div class="custom-header" id="top">
 	<div class="page-center">
 	    <div class="cs-inner-header-wrapper">
             <div class="cs-logo-wrap"><a href="#"><div class="cs-logo"></div></a>
@@ -19,13 +19,10 @@
             <div class="cs-menu-wrap">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#top">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact Us</a>
+                        <a href="#footer">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -37,25 +34,56 @@
     <div class="cs-banner">
         <div class="cs-banner-left-wrap">
             <div class="cs-banner-left-content-wrap">
-                <p class="cs-banner-left-content">
+                <div class="cs-banner-left-content">
                     <!-- <span class="border-line"></span> -->
-                    <span class="cs-text-box">
-                        What if everyone at
-                        your <b class="bold-text">Museum</b>
-                        could answer a question together?
-                    </span>
+                    <ul class="cs-text-box">
+                           <li key="1">
+                                What if everyone a your
+                                 <b class="bold-text">cinema</b>
+                                  could answer a question together?                               
+                           </li>
+                           <li  key="2">
+                                What id everyone at your <b class="bold-text">Stadium</b>
+                                 could answerr a question together?
+                           </li>
+                           <li  key="3"> 
+                                What if everyone at your <b class="bold-text">conference</b> 
+                                could answer a question together?
+                           </li>
+                           <li  key="4"> 
+                                What if everyone at your <b class="bold-text">store</b> 
+                                could answer a question together?
+                            </li>
+                            <li  key="5"> 
+                                    What if everyone at your <b class="bold-text">festival</b> 
+                                    could answer a question together?
+                            </li>
+                            <li  key="6"> 
+                                    What if everyone at your <b class="bold-text">hotel</b> 
+                                    could answer a question together?
+                            </li>
+                    </ul>
                     <!-- <span class="border-line"></span> -->
-                </p>
+                </div>
             </div>
             <div class="cs-banner-nav">
-                <a href="#">Prev<img src="./image/noun-1709583-cc-copy@3x.png" ></a>
-                <a href="#">Next<img src="./image/shape_2@3x.png" ></a>
+                <a href="#" id="PrevBtn">Prev<img src="./image/noun-1709583-cc-copy@3x.png" ></a>
+                <a href="#" id="NextBtn">Next<img src="./image/shape_2@3x.png" ></a>
                 <a href="#top-section-one" class="slide-bottom"></a>
             </div>
         </div>
         <div class="cs-banner-right-wrap">
+            <div class="cs-banner-right-bg-img-box">
+                <img src="./image/slider2.png" class="active" key="1">
+                <img src="./image/slider3.png" class="" key="2">
+                <img src="./image/slider4.png" class="" key="3">
+                <img src="./image/slider5.png" class="" key="4">
+                <img src="./image/slider6.png" class="" key="5">
+                <img src="./image/slider7.png" class="" key="6">
+                
+            </div>
             <div class="cs-banner-right-top-wrap">
-                <div class="cs-article-box-wrapper">
+                <div class="cs-article-box-wrapper " key="1">
                     <div class="cs-banner-article-box box-one">
                         <div class="cs-banner-article-box-left">
                             <div class="cs-banner-article-box-img">
@@ -76,10 +104,9 @@
                                 <img src="./image/Slider2_2.png"><h6>Don M</h6>
                             </div>
                             <p>
-                                I always thought.
+                                    He would capture the deep anxiety behind my eyes
                             </p>
-                        </div>
-    
+                        </div>    
                     </div>
                     <div class="cs-banner-article-box box-two">
                         <div class="cs-banner-article-box-left">
@@ -101,7 +128,262 @@
                                 <img src="./image/Slider2_2.png"> <h6>Deenah</h6>
                             </div>
                             <p>
-                                I always thought.
+                                    I always thought I'd look good elongated
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cs-article-box-wrapper" key="2">
+                    <div class="cs-banner-article-box box-one">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider3_1.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Big Papi</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider3_1.png"> <img src="./image/Slider3_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider3_2.png"><h6>Don M</h6>
+                            </div>
+                            <p>
+                                    He would capture the deep anxiety behind my eyes
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="cs-banner-article-box box-two">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider2_2.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Fred Lyn</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider2_1.png"> <img src="./image/Slider2_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider2_2.png"> <h6>Deenah</h6>
+                            </div>
+                            <p>
+                                    I always thought I'd look good elongated
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cs-article-box-wrapper" key="3">
+                    <div class="cs-banner-article-box box-one">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider4_1.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Hermione's Time Turnor</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider4_1.png"> <img src="./image/Slider4_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider4_2.png"><h6>Don M</h6>
+                            </div>
+                            <p>
+                                    He would capture the deep anxiety behind my eyes
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="cs-banner-article-box box-two">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider2_2.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Wonkavision</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider2_1.png"> <img src="./image/Slider2_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider2_2.png"> <h6>Deenah</h6>
+                            </div>
+                            <p>
+                                    I always thought I'd look good elongated
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cs-article-box-wrapper" key="4">
+                    <div class="cs-banner-article-box box-one">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider5_1.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Young Elizabeth</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider5_1.png"> <img src="./image/Slider5_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider5_2.png"><h6>Don M</h6>
+                            </div>
+                            <p>
+                                    He would capture the deep anxiety behind my eyes
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="cs-banner-article-box box-two">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider2_2.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>The Accidental Empress</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider2_1.png"> <img src="./image/Slider2_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider2_2.png"> <h6>Deenah</h6>
+                            </div>
+                            <p>
+                                    I always thought I'd look good elongated
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cs-article-box-wrapper" key="5">
+                    <div class="cs-banner-article-box box-one">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider6_1.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Solsbury Hill by Peter Gabriel</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider6_1.png"> <img src="./image/Slider6_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider6_2.png"><h6>Don M</h6>
+                            </div>
+                            <p>
+                                    He would capture the deep anxiety behind my eyes
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="cs-banner-article-box box-two">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider6_2.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Heavy Metal Drummer by Wilco</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider2_1.png"> <img src="./image/Slider2_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider2_2.png"> <h6>Deenah</h6>
+                            </div>
+                            <p>
+                                    I always thought I'd look good elongated
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="cs-article-box-wrapper" key="6">
+                    <div class="cs-banner-article-box box-one">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider7_1.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>Sketchook Project in Williamsburg</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider7_1.png"> <img src="./image/Slider7_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider7_2.png"><h6>Don M</h6>
+                            </div>
+                            <p>
+                                    He would capture the deep anxiety behind my eyes
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="cs-banner-article-box box-two">
+                        <div class="cs-banner-article-box-left">
+                            <div class="cs-banner-article-box-img">
+                                <img src="./image/Slider2_2.png">
+                            </div>
+                            <div class="cs-banner-article-text">
+                                <h5>The "Wallpaper Room" at The Cooper Hewait</h5>
+                                <div class="cs-banner-article-text-left">
+                                    <a href="#">Agreed <i class="fa fa-check" aria-hidden="true"></i></a> <img src="./image/Slider7_1.png"> <img src="./image/Slider7_2.png">
+                                </div>
+                                <div class="cs-banner-article-text-right">
+                                    <a herf="#"><i class="fa fa-share-square-o" aria-hidden="true"></i> Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-banner-article-box-btm">
+                            <div class="cs-banner-art-box-btm-heading">
+                                <img src="./image/Slider7_2.png"> <h6>Deenah</h6>
+                            </div>
+                            <p>
+                                    I always thought I'd look good elongated
                             </p>
                         </div>
     
@@ -109,7 +391,7 @@
                 </div>
             </div>
             <div class="cs-banner-right-bottom-wrap">
-                <div class="cs-banner-mobile-box">
+                <div class="cs-banner-mobile-box" key="1">
                    <span>
                         <p>
                             What artist would
@@ -118,6 +400,52 @@
                         <a href="#">Answer</a>
                    </span>
                 </div>
+                <div class="cs-banner-mobile-box" key="2">
+                    <span>
+                         <p>
+                            What artist would
+                             you choose to paint your Portrait?
+                         </p>
+                         <a href="#">Answer</a>
+                    </span>
+                 </div>
+                 <div class="cs-banner-mobile-box" key="3">
+                    <span>
+                         <p>
+                           What artist would
+                             you choose to paint your Portrait?
+                         </p>
+                         <a href="#">Answer</a>
+                    </span>
+                 </div>
+                 <div class="cs-banner-mobile-box" key="4">
+                    <span>
+                         <p>
+                            What artist would
+                             you choose to paint your Portrait?
+                         </p>
+                         <a href="#">Answer</a>
+                    </span>
+                 </div>
+                 <div class="cs-banner-mobile-box" key="5">
+                    <span>
+                         <p>
+                             What artist would
+                             you choose to paint your Portrait?
+                         </p>
+                         <a href="#">Answer</a>
+                    </span>
+                 </div>
+                 <div class="cs-banner-mobile-box" key="6">
+                    <span>
+                         <p>
+                             What artist would
+                             you choose to paint your Portrait?
+                         </p>
+                         <a href="#">Answer</a>
+                    </span>
+                 </div>
+                
             </div>
         </div>
     </div>
@@ -180,15 +508,15 @@
            <div class="cs-top-section-inner-wrap">
                <div class="page-center">
                     <h3 class="section-heading ">Our customers</h3>
-                    <p>In April 2018, Barnes & Noble launched Browsery, a community-curated app for books, powered by Milq.</p>
-                    <img src="./image/bitmap_2@3x.png">
+                    <p><a href="https://www.barnesandnoble.com/h/about-browsery">In April 2018, Barnes & Noble launched Browsery, a community-curated app for books, powered by Milq.</a></p>
+                    <a href="https://www.barnesandnoble.com/h/about-browsery"><img src="./image/bitmap_2@3x.png"></a>
                </div>
            </div>
         </div>
     </div>
 </div>
 <!-- Footer Starts Here-->
-<div class="custom-footer">
+<div class="custom-footer" id="footer">
         <div class="cs-footer-top-wrap">
             <div class="page-center">	
                 <div class="cs-inner-footer-wrapper">  

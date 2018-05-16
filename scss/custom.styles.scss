@@ -166,6 +166,7 @@ body select {
   font-stretch: normal;
   line-height: 1.79;
   letter-spacing: 0.1px;  
+  font-size: 14px;
   font-family: Open Sans;
 }
 
@@ -219,7 +220,7 @@ body input[type="button"],
     outline: none;
     vertical-align: middle;
     font-family: Open Sans;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -668,6 +669,10 @@ body input[type="button"]:focus {
       margin-bottom: 20px;
       a{
         color: #373739;
+        font-weight: bold;
+        b {
+          display: inline-block;
+         }
       }
     }
     &.bottom-pane {
@@ -730,12 +735,15 @@ body input[type="button"]:focus {
   width: 100%;
   .cs-footer-top-left {
     float: left;
+    font-size: 17px;
     width: 40%;
     color: #d2cccc;
   }
   .cs-footer-top-right {
     float: left;
     width: 60%;
+    vertical-align: middle;
+    padding-top: 16px;
   }
   h3.section-heading.cs-about-us{
     color: #d2cccc;
@@ -818,7 +826,9 @@ body input[type="button"]:focus {
     float: left;
   }
   .cs-form-heading{
-    width: 30%
+    width: 30%;
+    vertical-align: middle;
+    padding-top: 6px;
   }
   .cs-form-inner-wrap {
     float: left;
@@ -831,13 +841,14 @@ body input[type="button"]:focus {
 }
 .cs-form-heading h4 {
   font-weight: 400;
+  font-size: 20px;
 }
 .cs-footer-top-right {
-  padding: 0px 50px 50px;
+  padding: 0px 50px 0px;
   .cs-quote {
     font-size: 19px;
     font-weight: 600;
-    line-height: 2.04;
+    line-height: 1.54;
     max-width: 350px;
   }
   .cs-author {

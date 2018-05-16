@@ -15,7 +15,7 @@ html, body {
   padding: 0; }
 
 body {
-  background-image: url(transparent);
+  background-image: transparent;
   background-color: transparent;
   font-family: "Open Sans", sans-serif;
   color: #000;

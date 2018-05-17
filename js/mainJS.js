@@ -11,7 +11,6 @@ $(document).ready(function(){
     });
 
     var i = 0 ;
-    var j = 7;
     var myVar ;
 
     function newTimeout(){
@@ -60,13 +59,14 @@ $(document).ready(function(){
     });
 
     $("#PrevBtn").click(function(){
-        j--
-        if ( j <= 0 ) {
-            j = 6;
+        if ( i === 0 ) {
+            i = 6;
+        } else {
+            i--;
         }
         $(".cs-banner-left-content .cs-text-box li,.cs-article-box-wrapper,.cs-banner-mobile-box,.cs-banner-right-bg-img-box img").each(function(){
             var keyNo = $(this).attr('key');
-            if (keyNo == j ) {
+            if (keyNo == i ) {
                 $(this).siblings().removeClass("active");
                 $(this).addClass("active");
             }

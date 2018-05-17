@@ -39,7 +39,7 @@ $(document).ready(function(){
     })
     $("#NextBtn").click(function(){
         i++
-        if ( i > 6 ) {
+        if ( i > 5 ) {
             i = 0;
         }
         $(".cs-banner-left-content .cs-text-box li,.cs-article-box-wrapper,.cs-banner-mobile-box,.cs-banner-right-bg-img-box img").each(function(){
@@ -60,7 +60,7 @@ $(document).ready(function(){
 
     $("#PrevBtn").click(function(){
         if ( i === 0 ) {
-            i = 6;
+            i = 5;
         } else {
             i--;
         }

@@ -793,7 +793,7 @@ body input[type="button"],
     padding: 5px 10px;
     font-size: 12px; }
 
-  .cs-banner .slide-bottom {
+  /*.cs-banner .slide-bottom{
     background: url(../image/group-11.png);
     display: inline-block;
     width: 45px;
@@ -807,8 +807,8 @@ body input[type="button"],
     background-position: center;
     background-size: contain;
     cursor: pointer;
-    background-repeat: no-repeat; }
-
+    background-repeat: no-repeat;
+  }*/
   .custom-header .cs-logo {
     width: 70px; }
 
@@ -892,7 +892,7 @@ body input[type="button"],
     height: 32%; }
 
   .custom-body-conatiner-wrapper .cs-body-top-section .cs-top-section-inner-wrap {
-    padding: 30px 0; }
+    padding: 90px 0 30px; }
 
   .custom-body-conatiner-wrapper .cs-body-top-section.bottom-pane .cs-top-section-inner-wrap {
     padding-top: 0; }
@@ -908,7 +908,7 @@ body input[type="button"],
     margin-top: -1px; }
 
   .custom-footer .cs-footer-top-wrap {
-    padding: 30px 0; }
+    padding: 90px 0 30px; }
 
   .custom-footer .cs-footer-top-left,
   .custom-footer .cs-footer-top-right {

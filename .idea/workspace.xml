@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413579c2-8e6f-4101-a5fe-162ddd3d6735" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fd4d0aeccf177a628569db5537c3018340b72b29/custom.styles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fd4d0aeccf177a628569db5537c3018340b72b29/custom.styles.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.styles.css" afterPath="$PROJECT_DIR$/css/custom.styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.styles.css.map" afterPath="$PROJECT_DIR$/css/custom.styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mainJS.js" afterPath="$PROJECT_DIR$/js/mainJS.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/custom.styles.scss" afterPath="$PROJECT_DIR$/scss/custom.styles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="98" column="68" lean-forward="false" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
+            <state relative-caret-position="208">
+              <caret line="664" column="37" lean-forward="false" selection-start-line="664" selection-start-column="37" selection-end-line="664" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -56,17 +57,17 @@
             <state relative-caret-position="477">
               <caret line="715" column="21" lean-forward="false" selection-start-line="715" selection-start-column="21" selection-end-line="715" selection-end-column="21" />
               <folding>
-                <marker date="1526553113073" expanded="true" signature="23751:23753" ph="{...}" />
+                <marker date="1526554178393" expanded="true" signature="23765:23767" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/custom.styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="756" column="16" lean-forward="false" selection-start-line="756" selection-start-column="16" selection-end-line="756" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="956" column="5" lean-forward="false" selection-start-line="941" selection-start-column="2" selection-end-line="956" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -77,10 +78,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.cs-help-item-box-wrap .cs-help-item-box</find>
-      <find>.custom-footer .cs-footer-top-wrap</find>
       <find>767</find>
       <find>.cs-banner-mobile-box</find>
       <find>.cs-banner-right-bottom-wrap</find>
+      <find>&quot;top&quot;</find>
+      <find>.custom-footer .cs-footer-top-wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,9 +92,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/mainJS.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.styles.css" />
         <option value="$PROJECT_DIR$/scss/custom.styles.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -170,12 +172,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526537815663</updated>
-      <workItem from="1526537816897" duration="13144000" />
+      <workItem from="1526537816897" duration="14379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13144000" />
+    <option name="totallyTimeSpent" value="14379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -218,32 +220,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="98" column="68" lean-forward="false" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="715" column="21" lean-forward="false" selection-start-line="715" selection-start-column="21" selection-end-line="715" selection-end-column="21" />
           <folding>
-            <marker date="1526553113073" expanded="true" signature="23751:23753" ph="{...}" />
+            <marker date="1526554178393" expanded="true" signature="23765:23767" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/custom.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="756" column="16" lean-forward="false" selection-start-line="756" selection-start-column="16" selection-end-line="756" selection-end-column="16" />
+        <state relative-caret-position="340">
+          <caret line="956" column="5" lean-forward="false" selection-start-line="941" selection-start-column="2" selection-end-line="956" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="664" column="37" lean-forward="false" selection-start-line="664" selection-start-column="37" selection-end-line="664" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

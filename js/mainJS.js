@@ -141,6 +141,7 @@ $(document).ready(function(){
                     isValid = isValid? true: false;
                     showMessage(null, 'nameSpan', false);
                 } else {
+                    isValid = false;
                     showMessage('Please enter your name', 'nameSpan', true);
                 }
             }

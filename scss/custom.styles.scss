@@ -837,6 +837,12 @@ body input[type="button"]:focus {
   .cs-form-text-box{    
     width: 33%;
     padding: 0 5px;
+    span{
+      color:blue;
+      &.error{
+        color:red;
+      }
+    }
   }
 }
 .cs-form-heading h4 {

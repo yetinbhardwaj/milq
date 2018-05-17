@@ -952,6 +952,12 @@ body input[type="button"],
     width: 100%;
     padding: 0;
     margin-bottom: 20px; }
+  .cs-footer-top-form-wrap .cs-form-text-box span{
+    color:blue;
+  }
+  .cs-footer-top-form-wrap .cs-form-text-box span.error{
+    color:red;
+  }
 
   .cs-footer-top-form-wrap .cs-form-text-box:last-child {
     margin-bottom: 0; }

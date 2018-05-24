@@ -1015,11 +1015,14 @@ body input[type="button"],
 
   .cs-banner-mobile-box {
     width: 35%;
-    height: 200px;
+    height: 179px;
     min-width: 20px;
     background-repeat: no-repeat;
-    bottom: -200px;
+    bottom: -179px;
     left: -85px; }
+
+  .cs-banner .cs-banner-left-wrap .cs-banner-nav {
+    bottom: -15px; }
 
   .cs-banner .cs-banner-left-wrap .cs-banner-left-content .cs-text-box {
     max-width: 100%;

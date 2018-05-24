@@ -455,7 +455,7 @@ body input[type="button"]:focus {
   transition-duration: 0s;
   transition-delay: 0s;
   &.active{
-    bottom: 0;
+    bottom: -2px;
     -webkit-transition-property: bottom; /* Safari */
     -webkit-transition-duration: 600ms; /* Safari */
     -webkit-transition-delay: 200ms; /* Safari */
@@ -837,12 +837,6 @@ body input[type="button"]:focus {
   .cs-form-text-box{    
     width: 33%;
     padding: 0 5px;
-    span{
-      color:blue;
-      &.error{
-        color:red;
-      }
-    }
   }
 }
 .cs-form-heading h4 {
@@ -881,7 +875,7 @@ body input[type="button"]:focus {
   }
   .cs-banner-right-top-wrap{
     padding: 15px 20px 0;
-    height: auto;
+    height: 40%;
     display: block;
   }
   .cs-banner-article-box {
@@ -972,8 +966,8 @@ body input[type="button"]:focus {
 
   .cs-banner-right-bottom-wrap {
     text-align: center;
-    padding: 44px 20px 0;
-    height: 62%;
+    padding: 20px 20px 0;
+    height: 60%;
     position: relative;
     display: block;
     bottom: 2px;

@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     function newTimeout(){
         window.clearTimeout(myVar);
-        myVar = setTimeout(nextClick, 5000);
+        myVar = setTimeout(nextClick, 6000);
     }
     function nextClick(){
         $("#NextBtn").click();
@@ -120,6 +120,8 @@ $(document).ready(function(){
                 dataType: "application/json",
                 complete: function (xhr) {
                     if (xhr && xhr.status === 200) {
+                        $('#name').val('');
+                        $('#email').val('');
                         showMessage('Mail sent successfully', 'nameSpan', false);
                     } else {
                         showMessage('Some error occurred', 'nameSpan', true);
@@ -160,3 +162,5 @@ $(document).ready(function(){
         }
     });
 });
+
+

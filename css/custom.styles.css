@@ -720,7 +720,10 @@ body input[type="button"],
 @media (min-width: 992px) and (max-width: 1024px) {
   .cs-banner-article-box {
     width: 100%;
-    margin: 0px 0 10px; } }
+    margin: 0px 0 10px; }
+
+  .cs-article-box-wrapper.active .cs-banner-article-box.box-two {
+    display: none; } }
 @media (max-width: 991px) {
   .cs-banner-article-box {
     width: 100%;

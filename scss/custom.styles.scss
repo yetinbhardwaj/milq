@@ -864,6 +864,9 @@ body input[type="button"]:focus {
     width: 100%;
     margin: 0px 0 10px;
   }
+  .cs-article-box-wrapper.active .cs-banner-article-box.box-two{
+    display: none;
+  }
 }
 
 @media(max-width: 991px){
